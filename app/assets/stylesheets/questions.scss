@@ -1,0 +1,31 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+$gray: #DDDDDD;
+$light-yellow: #FFFEE1;
+
+.container-one{
+  width: 600px;
+  border-left: 5px solid $gray;
+  p {
+    padding: 10px 10px;
+    font-size: 24px;
+  }
+}
+
+.container-two{
+  width: 600px;
+  background-color: $light-yellow;
+  border-left: 5px solid $gray;
+  p {
+    padding: 10px 10px;
+    font-size: 24px;
+  }
+}
+
+
+.who-says {
+  font-style: italic;
+}
+
+

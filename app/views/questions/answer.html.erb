@@ -1,0 +1,13 @@
+<div class="container-fluid">
+  <h1>Stupid Coaching</h1>
+  <div class="container-one">
+    <p><%= @question %></p>
+    <p class="who-says">--You</p>
+  </div>
+  <div class="container-two">
+    <p><%= @answer %></p>
+    <p class="who-says">--Your coach</p>
+  </div>
+
+  <%= link_to "Ask a new question", 'http://localhost:3000/ask' %>
+</div>
